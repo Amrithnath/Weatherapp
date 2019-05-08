@@ -18,5 +18,6 @@ To run the app on your local system follow the steps below
 - from inside the project directory run the command `npm install` to install all dependencies
 - create a `.env` file at the root of the directory
 - make two entries in the .env file as `key = 'Your dark sky API key'` and `Mapbox= 'your mapbox API key'`
-- run the project using the command `npm start` within the project directory
+- run the project using the command `npm run start` within the project directory
+- if you want to contribute to the project and use the development environment (dev dependency : nodemon) run the command `npm run dev instead`
 - this will serve the project page at `localhost:4000` navigate to the [link](localhost:4000) to view the app

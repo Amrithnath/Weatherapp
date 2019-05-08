@@ -4,7 +4,8 @@
   "description": "Displays weather as user needs for each city",
   "main": "./src/app.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,8 @@
     "express": "^4.16.4",
     "hbs": "^4.0.4",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+   "nodemon": "^1.19.0" 
   }
 }
