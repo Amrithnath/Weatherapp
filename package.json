@@ -1,0 +1,29 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Displays weather as user needs for each city",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amrithnath/Weatherapp.git"
+  },
+  "keywords": [
+    "Weather",
+    "prediction"
+  ],
+  "author": "Amrithnath <arjun.amrith@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amrithnath/Weatherapp/issues"
+  },
+  "homepage": "https://github.com/Amrithnath/Weatherapp#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "hbs": "^4.0.4",
+    "request": "^2.88.0"
+  }
+}
